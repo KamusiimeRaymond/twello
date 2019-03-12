@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+   <title>KnockoutJS Templating - foreach used with Template</title>
+   <script src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-3.4.1.js" type="text/javascript"></script>
+</head>
+<body>
+   <h2>Fruit List</h2>
+   Here are the fruits from your list:
+   <div data-bind="template: { name: 'displayFruit', foreach: fruit }"></div>
+   <script type="text/html" id="displayFruit">
+       <h3 data-bind="text: name"></h3>
+       <p>Kingdom: <span data-bind="text: kingdom"></span></p>
+       <p>Description: <span data-bind="text: description"></span></p>
+   </script>
+   <script type="text/javascript">
+        function MyViewModelofFruit() {
+            this.fruit = [
+               {name: 'Strawberry', kingdom: 'Plantae', description: 'The garden strawberry (or simply strawberry; Fragaria × ananassa)[1] is a widely grown hybrid species of the genus Fragaria ... ' },
+               {name: 'Apple', kingdom: 'Plantae', description: 'The apple tree (Malus pumila, commonly and erroneously called Malus domestica) is a deciduous tree in the rose family ...' }            ]
+        }
+   var vm = new MyViewModelofFruit();
+   ko.applyBindings(vm);
+   </script>
+</body>
+</html>

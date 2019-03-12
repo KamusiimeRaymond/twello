@@ -1,0 +1,55 @@
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+btn:active {
+    transform: translateY(-1.5px);
+    box-shadow: 0 20px 20px, rgba(0,0,0,0,2);
+}
+
+.btn-gold {
+    background-color: darkgoldenrod;
+    color: white;    
+}
+
+.btn-gold:hover {
+    transform: translateY(-3px);
+    background-color: white;
+    color: darkgoldenrod;
+    font-weight: 600;
+    box-shadow: 0 10px 20px, rgba(0,0,0,0,2);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-gold::after {
+    background-color: darkgoldenrod;
+}
+
+.btn-gold:hover::after {
+    transform: scaleX(1.4) scaleY(1.5);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}

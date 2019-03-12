@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	width:100%;
+}
+
+div#dk1 {
+    height:100vh;
+    width:100%;
+    background-image: url(images/Dinner.png);
+    background-size:cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+div#dk2 {
+    height:100vh;
+    width:100%;
+    background-image: url(images/Coffee.png);
+    background-size:cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+div#dk3 {
+    height:100vh;
+    width:100%;
+    background-image: url(images/Pizza.png);
+    background-size:cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+div#dk4 {
+    height:100vh;
+    width:100%;
+    background-image: url(images/CoffeeMaker.png);
+    background-size:cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+h1#logo {
+	font-size:60px;
+	padding:50px;
+	text-align: center;
+    color: white;
+}
+
+.@media only screen and (max-width:768px) {
+	.main {
+		flex-direction: column;
+	}
+	.main
+}
+
+nav#header {
+    padding: 30px;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+nav#header ul li {
+    display: inline-block;
+}
+
+
+nav#header ul li a:link, nav#header ul li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+
+nav#header ul li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+nav#main2 {
+	text-align: center;
+	padding: 20px;
+	background: transparent;
+}
+
+p#caption {
+	text-align: center;
+	font-size:20px;
+	padding:40px;
+    color: white;
+}
+
+p#paragraph {
+    text-align: left;
+    height:180px;
+	font-size:17px;
+	padding:50px;
+    background-color: white;
+    color:darkgoldenrod;
+    column-count: 2;
+    float: left;
+}
+
+input[type="text"] {
+	width:400px;
+	padding:5px;
+	margin:25px 0 10px;
+	font-size: 20px;
+}
+
+input[type="text"]: hover {
+	border-color: #aaa;
+}
+
+input[type="submit"] {
+	background-color: darkgoldenrod;
+	color: white;
+	border: solid 1px #ccc;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: gold;
+    color: white;
+}
+
+a:link, a:visited {
+    color:dodgerblue;
+}
+
+button[type="button"] {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.19);
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+button[type="button"]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    background-color: gold;
+}
+
+footer {
+    background-color: black;
+    padding:20px;
+    bottom: 0;
+    position: relative;
+}
+
+footer ul li a:link, footer ul li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}

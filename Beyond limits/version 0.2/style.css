@@ -1,0 +1,78 @@
+/*Fonts*/
+@font-face {
+    font-family: coverfont;
+    src: url(fonts/Abite.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: leadfont;
+    src: url(fonts/Railways-Regular.otf);
+}
+/*------------------------------*/
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: bodyfont;
+}
+
+.navbar {
+    background-color: darkgoldenrod;
+    border-style: none;
+    color: black;
+}
+
+.navbar-brand {
+    font-family: coverfont;
+    font-size: 15px;
+}
+
+navbar-header {
+    background-color: white;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.cover {
+    background-image: url(images/autumn-beautiful-city-2.jpg);
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 400px;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+    /*clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);*/
+}
+
+.cover-text {
+    top: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainheader {
+    color: darkgoldenrod;
+    font-size: 50px;
+    font-family: coverfont;
+}
+
+.opening {
+    font-size: 30px;
+    color: white;
+}
+
+.section {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: darkgoldenrod;
+}

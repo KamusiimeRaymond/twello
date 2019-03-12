@@ -1,0 +1,16 @@
+loops
+sum of all odd numbers between 0 and 1000
+sum of all even numbers between 1 and 999
+Right angled Triangle star shape Ex 5.7
+Pyramid star shape
+Diamond star shape
+
+define
+logical error
+Syntax error
+Runtime error
+Exercise 6.1
+User enters numbers, first three odd saved in array and 
+thier sum calculated
+
+

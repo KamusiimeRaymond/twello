@@ -1,0 +1,150 @@
+/*Fonts*/
+@font-face {
+    font-family: coverfont;
+    src: url(fonts/Abite.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: leadfont;
+    src: url(fonts/Railways-Regular.otf);
+}
+/*------------------------------*/
+body {
+    width: 100%;
+    height: 100%;
+    font-family: bodyfont;
+}
+
+.navbar {
+    background-color: sienna;
+    border-style: none;
+    color: black;
+}
+
+.navbar-brand {
+    font-family: coverfont;
+    font-size: 15px;
+}
+
+.active {
+    color: sienna;
+}
+
+navbar-header {
+    background-color: white;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.cover {
+    background-image: url(images/autumn-beautiful-city-2.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 520px;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+    /*clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);*/
+}
+
+.cover-text {
+    top: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainheader {
+    color: white;
+    font-size: 50px;
+    font-family: coverfont;
+}
+
+.main2 {
+    top: 50px;
+    color: sienna;
+    font-size: 20px;
+    font-family: coverfont;
+    padding: 20px;
+}
+
+.main2:hover {
+    transform: scale(1.0);
+    transition-duration: 0.5s;
+    font-size: 25px;
+}
+
+.opening {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.section1 {
+    padding: 0px 0px;
+}
+
+.cover2 {
+    background-image: url(images/bright-clouds-cold.jpg);
+    background-position: fixed;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 520px;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+.section {
+    padding: 0px 55px;
+}
+
+.section {
+    padding: 25px;
+}
+
+.container1 {
+    background-color: floralwhite;
+    padding: 40px 20px;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: sienna;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: sienna;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-image: url(images/autumn-beautiful-city-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    height: 200px;
+    padding: 50px 50px;
+}
+
+a.bottomfooter {
+    color: white;
+    font-family: coverfont;
+}
