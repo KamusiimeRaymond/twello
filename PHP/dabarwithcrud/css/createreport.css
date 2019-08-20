@@ -1,0 +1,31 @@
+/*Fonts
+@font-face {
+    font-family: coverfont;
+    src: url(fonts/Abite.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: leadfont;
+    src: url(fonts/Railways-Regular.otf);
+}
+
+#bd {
+    
+    width: 100%;
+    height: 100%;
+    font-family: bodyfont;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 248, 175);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: #062727;
+    font-family: bodyfont;
+}*/

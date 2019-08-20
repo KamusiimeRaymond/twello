@@ -1,0 +1,25 @@
+/*Fonts*/
+@font-face {
+    font-family: coverfont;
+    src: url(fonts/Abite.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: leadfont;
+    src: url(fonts/Railways-Regular.otf);
+}
+/*------------------------------*/
+
+.main {
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    display: table;
+    width: 600px;
+    height: 520px;
+    padding: 0 20%;
+    
+}

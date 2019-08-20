@@ -1,0 +1,27 @@
+/*Fonts*/
+@font-face {
+    font-family: coverfont;
+    src: url(fonts/Abite.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: leadfont;
+    src: url(fonts/Railways-Regular.otf);
+}
+/*------------------------------*/
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: bodyfont;
+    background-color: cornflowerblue;
+}
+
+h4,h5 {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+}
